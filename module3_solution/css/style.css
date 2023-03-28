@@ -1,1 +1,103 @@
-
+/* Set the font size and style of the body */
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Set the background color for the navbar */
+  .navbar {
+    background-color: #fff;
+  }
+  
+  /* Set the color and size of the company name in the navbar */
+  .navbar-brand {
+    color: #d9534f;
+    font-size: 24px;
+  }
+  
+  /* Hide other navbar links on mobile */
+  .visible-xs {
+    display: none !important;
+  }
+  
+  /* Set the background color and color of the mobile menu button */
+  .navbar-toggle {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: #fff;
+  }
+  
+  /* Set the background color and color of the dropdown menu */
+  .dropdown-menu {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Set the color and size of the menu items in the dropdown menu */
+  .dropdown-menu > li > a {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  /* Set the background color of the section */
+  .section {
+    background-color: #f9f9f9;
+  }
+  
+  /* Set the height of the section on large and medium screens */
+  @media (min-width: 992px) {
+    .section {
+      height: 1000px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .section {
+      height: 1200px;
+    }
+  }
+  
+  /* Set the padding and font size of the page heading */
+  .page-header {
+    padding: 40px 0;
+    font-size: 48px;
+  }
+  
+  /* Set the color and size of the section title */
+  .section-title {
+    color: #d9534f;
+    font-size: 32px;
+  }
+  
+  /* Set the background color, padding, and border of the section title region */
+  .section-heading {
+    background-color: #d9534f;
+    padding: 10px 15px;
+    border: 1px solid #000;
+  }
+  
+  /* Set the color and font size of the section text */
+  .section-text {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  /* Set the padding and margin of the section */
+  .section-content {
+    padding: 50px 0;
+    margin: 0 30px;
+  }
+  
+  /* Set the background color, padding, and border of the mobile menu */
+  .mobile-menu {
+    background-color: #d9534f;
+    padding: 20px 0;
+    border: 1px solid #000;
+  }
+  
+  /* Set the color and size of the menu items in the mobile menu */
+  .mobile-menu > li > a {
+    color: #fff;
+    font-size: 24px;
+  }
+  
